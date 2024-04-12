@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>LERO</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-xxl px-4">
+                <div class="logo">
+                    <a class="navbar-brand ms-3" href="#"><i class="fa-solid fa-utensils"></i>LERO</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmain"
+                    aria-controls="navmain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmain">
+                    <ul class="navbar-nav ms-auto pe-3">
+                        <li class="nav-item me-2"><a class="nav-link text-white active" aria-current="page"
+                                href="#">Дім</a></li>
+                        <li class="nav-item me-2"><a class="nav-link text-white" href="#aboutus">Про Нас</a></li>
+                        <li class="nav-item me-2"><a class="nav-link text-white" href="#service">Сервіс</a></li>
+                        <li class="nav-item me-2"><a class="nav-link text-white" href="#foodmenu">Меню</a></li>
+                            <ul class="dropdown-menu my-3">
+                                <a href="" class="dropdown-item">Бронювання</a>
+                                <a href="" class="dropdown-item">Відгук</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#footer">Контакти</a></li>
+                    </ul>
+                    <div class="btn text-white me-3">Замовити столик</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="container-xxl homebg py-5 d-flex align-items-center">
+                <div class="container py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ps-3">
+                            <h1 class="text-white">Насолоджуйтеся</h1>
+                            <h1 class="text-white mb-2">Смачною їжею</h1>
+                            <p class="text-white mb-3 pb-4 lh-2">Ми будемо раді бачити вас у нашому закладі!</p>
+                            <div class="btn text-white px-5 py-3">Забронюй столик</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="serv col-lg-3 col-md-6 col-sm-12 shadow">
+                        <div class="servitem p-4">
+                            <i class="fa fa-3x fa-user-tie mb-4"></i>
+                            <h5 class="mb-3">Майстер Шеф</h5>
+                        </div>
+                    </div>
+                    <div class="serv col-lg-3 col-md-6 col-sm-12 shadow">
+                        <div class="servitem p-4">
+                            <i class="fa fa-3x fa-utensils mb-4"></i>
+                            <h5 class="mb-3">Якісна їжа</h5>
+                        </div>
+                    </div>
+                    <div class="serv col-lg-3 col-md-6 col-sm-12 shadow">
+                        <div class="servitem p-4">
+                            <i class="fa fa-3x fa-cart-plus mb-4"></i>
+                            <h5 class="mb-3">Замовлення онлайн</h5>
+                        </div>
+                    </div>
+                    <div class="serv col-lg-3 col-md-6 col-sm-12 shadow">
+                        <div class="servitem p-4">
+                            <i class="fa fa-3x fa-headset mb-4"></i>
+                            <h5 class="mb-3">Цілодобове обслуговування</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutus" id="aboutus">
+            <div class="container mt-5">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <img src="images/caption.jpg" alt="" class="img-fluid">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-5">
+                        <div class="abtop">
+                            <h5>Про нас</h5>
+                            <h1 class="mb-3">Ласкаво просимо до <i class="fa-solid fa-utensils"></i> LERO</h1>
+                            <p class="mb-4">Запрошуємо завітати до нас</p>
+                           
+                        </div>
+
+                        <div class="abbottom mb-5">
+                            <div class="row mb-3">
+                                <div class="col-sm-6 abt1 d-flex align-items-center">
+                                    <div class="num me-3">
+                                        <h1 class="px-3">10</h1>
+                                    </div>
+                                    <div class="texts">
+                                        <p>Років<br>
+                                            <span>Досвіду</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6 abt1 d-flex align-items-center">
+                                    <div class="num me-3">
+                                        <h1 class="px-3">10</h1>
+                                    </div>
+                                    <div class="texts">
+                                        <p>Популярних <br>
+                                            <span>Шефів</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="foodmenu" id="foodmenu">
+            <div class="container-xxl mt-5 py-5">
+                <div class="container">
+                    <div class="fmenu text-center">
+                        <h5>Меню</h5>
+                        <h1 class="mb-5">Популярні позиції</h1>
+                    </div>
+                    <div class="tab-class text-center">
+                        <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                            <li class="nav-item">
+                                <a class="d-flex align-items-center text-start pb-3 active" data-bs-toggle="pill"
+                                    href="#tab-1">
+                                    <i class="fa fa-coffee fa-2x"></i>
+                                    <div class="px-3">
+                                        <small>Популярні</small>
+                                        <h6 class="text-dark">Сніданки</h6>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="d-flex align-items-center text-start pb-3" data-bs-toggle="pill"
+                                    href="#tab-2">
+                                    <i class="fa fa-hamburger fa-2x"></i>
+                                    <div class="px-3">
+                                        <small>Популярні</small>
+                                        <h6 class="text-dark">Ланчи</h6>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane show fade p-0 active">
+                                <div class="row g-4">
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid" src="./images/menu-1.jpg" alt="" style="width:80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Вівсянка</span>
+                                                    <span>100 грн</span>
+                                                </h5>
+                                                <small class="fst-italic">Інгредієнти</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid" src="./images/menu-2.jpg" alt="" style="width:80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Тости</span>
+                                                    <span>100 грн</span>
+                                                </h5>
+                                                <small class="fst-italic">Інгредієнти</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid" src="./images/menu-3.jpg" alt="" style="width:80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Смузі</span>
+                                                    <span>100 грн</span>
+                                                </h5>
+                                                <small class="fst-italic">Інгредієнти</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid" src="./images/menu-4.jpg" alt="" style="width:80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Млинці</span>
+                                                    <span>100 грн</span>
+                                                </h5>
+                                                <small class="fst-italic">Інгредієнти</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid" src="./images/menu-5.jpg" alt="" style="width:80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Вафлі</span>
+                                                    <span>100 грн</span>
+                                                </h5>
+                                                <small class="fst-italic">Інгредієнти</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="img-fluid" src="./images/menu-6.jpg" alt="" style="width:80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>Французький тост</span>
+                                                    <span>100 грн</span>
+                                                </h5>
+                                                <small class="fst-italic">Інгредієнти</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reserv" id="reserv">
+            <div class="container-xxl py-5">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 bgreserv">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex-column align-items-center reservright">
+                        <div class="p-4">
+                            <div class="infos py-2">
+                                <h5>Резерв столику</h5>
+                                <h1 class="text-white">Зарезурвати столик онлайн</h1>
+                            </div>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control rounded-0" id="name"
+                                                placeholder="Your Name">
+                                            <label for="name">Ім'я</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control rounded-0" id="name"
+                                                placeholder="Your Email">
+                                            <label for="name">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control rounded-0" id="name"
+                                                placeholder="Date">
+                                            <label for="name">Дата народження</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                        <div class="form-floating">
+                                            <select id="select1" class="form-select rounded-0">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                            </select>
+                                            <label for="select1">Кількість людей</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea id="message" class="form-control rounded-0"
+                                                style="height: 100px;"></textarea>
+                                            <label for="message">Додаткові нотатки</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn text-white w-100 py-3 mb-2">Зарезервувати</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid text-light pt-5 mt-5" id="footer">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6-col-sm-12">
+                        <h4 class="mb-4">Ресторан</h4>
+                        <div class="footlinks d-flex flex-column">
+                            <a class="text-white mb-2" href=""><i class="fa-solid fa-angle-right"></i> Про Нас </a>
+                            <a class="text-white mb-2" href=""><i class="fa-solid fa-angle-right"></i> Контакти</a>
+                            <a class="text-white mb-2" href=""><i class="fa-solid fa-angle-right"></i> Бронювання</a>
+                            <a class="text-white mb-2" href=""><i class="fa-solid fa-angle-right"></i> Конфіденційність</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6-col-sm-12">
+                        <h4 class="mb-4">Контакти</h4>
+                        <p class="my-2"><i class="fa fa-map-marker-alt me-3"></i>Кіото 19</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+38 098 247 6578</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>restoran@restoran.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6-col-sm-12">
+                        <h4 class="mb-4">Ми відчинені</h4>
+                        <div class="timing1">
+                            <h5>Кожен день</h5>
+                            <p>9:00 - 21:00</p>
+                        </div>
+                    </div>
+                </div>
+    </footer>
+</body>
+</html>
